@@ -3,7 +3,9 @@ body {
     font-family: sans-serif;
     font-size: 30px;
 }
-
+@media only screen and(min-width: 300px){
+    
+}
 /* Body Header */
 
 #body-header {
@@ -223,6 +225,7 @@ section:nth-child(2n + 1) {
 }
 
 .portfolio-image-container:hover .portfolio-details {
+    
     background-color: #80808078;
     color: white;
 }
@@ -265,6 +268,14 @@ section:nth-child(2n + 1) {
     background-color: #93738c;
 }
 
+.mb-cyan {
+    background-color: cyan;
+}
+
+.mb-dark{
+    background-color: #800080;
+}
+
 
 
 /*Percentage Classes */
@@ -281,7 +292,7 @@ section:nth-child(2n + 1) {
 
 .fifty-percent {
     height: inherit;
-    width: 50%;
+    width: 90%;
 }
 
 /* Contact Section*/
@@ -378,6 +389,9 @@ textarea{
 .my-details-info-container i{
     color: white;
 }
+
+/* section - Experience*/
+
 .timeline {
     position: relative;
     width: 75%;
@@ -430,13 +444,12 @@ textarea{
 }
 
 #timeline-divider {
+    width:0%;
+    border:2px dashed #0096fa6b;
     position: absolute;
-    width: 0;
-    top: 10%;
-    left: 50%;
-    border: 1px dashed #0096fa6b;
-    height: 66%;
-    color: #433E3F;
+    height:75%;
+    bottom:20%;
+    left:50%;
 }
 
 #timeline-divider .timeline-traveller {
@@ -480,3 +493,4 @@ textarea{
 .text-align-justify {
     text-align: justify;
 }
+
