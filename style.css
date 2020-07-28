@@ -417,16 +417,16 @@ textarea{
     z-index: 1;
 }
 
-.timeline-box:nth-child(2n) {
+.timeline-box:nth-child(2n+1) {
     left: 53%;
 }
 
 .timeline-box:nth-child(2n+1)::after {
-    right: -11.8%;
+    right: 105%;
 }
 
 .timeline-box:nth-child(2n)::after {
-    left: -9%;
+    left: 109%;
 }
 
 .timeline-container {
@@ -463,6 +463,10 @@ textarea{
     margin-top: -35px;
     display: block;
     color: #2857a4;
+}
+#rotate{
+    transform: rotate(270deg);
+    margin-left:-8px; 
 }
 
 .experience-designation {
