@@ -182,6 +182,18 @@ section:nth-child(2n + 1) {
     vertical-align: middle;
 }
 
+/* Awards and achievements*/
+
+#awards {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    line-height: 25px;
+    word-spacing: 10px;
+}
 
 
 /* Portfolio Section */
